@@ -1,0 +1,9 @@
+name: advent_of_code_2020
+description: Solutions for Advent of Code 2020.
+version: 0.0.1
+
+environment:
+  sdk: ">=2.10.4-0 <3.0.0"
+
+dev_dependencies:
+  test: ^1.15.0
