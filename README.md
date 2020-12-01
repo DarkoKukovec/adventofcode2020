@@ -2,14 +2,24 @@
 
 Solutions are created using Dart and JS
 
+## Initial setup (required only for tests)
+
+```bash
+# Dart
+pub get
+
+# JS
+npm install
+```
+
 ## Execution
 
 ```bash
 # Dart
-dart days/01.dart
+dart days/main.dart 01
 
 # JS
-node days/01
+node days 01
 ```
 
 ## Test
