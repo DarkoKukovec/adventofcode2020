@@ -1,16 +1,16 @@
 int findCount(Iterable<List<String>> map, int diffX, int diffY) {
   int widthCount = map.elementAt(0).length;
-	int x = 0;
-	int y = 0;
-	int trees = 0;
+  int x = 0;
+  int y = 0;
+  int trees = 0;
 
-	while (y < map.length) {
+  while (y < map.length) {
     trees += map.elementAt(y).elementAt(x % widthCount) == '#' ? 1 : 0;
-		x += diffX;
-		y += diffY;
-	}
+    x += diffX;
+    y += diffY;
+  }
 
-	return trees;
+  return trees;
 }
 
 int A03(String content) {
