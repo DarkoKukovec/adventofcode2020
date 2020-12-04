@@ -93,9 +93,3 @@ int B04(String contents) {
     return true;
   }).length;
 }
-
-// 			if (!['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth'].includes(item.ecl)) {
-// 				return false;
-// 			}
-
-// 			return true;
