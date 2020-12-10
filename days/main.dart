@@ -8,6 +8,7 @@ import 'package:advent_of_code_2020/06.dart';
 import 'package:advent_of_code_2020/07.dart';
 import 'package:advent_of_code_2020/08.dart';
 import 'package:advent_of_code_2020/09.dart';
+import 'package:advent_of_code_2020/10.dart';
 
 void main(argv) {
   String day = argv[0];
@@ -49,6 +50,10 @@ void main(argv) {
     case '09':
       print(A09(contents));
       print(B09(contents));
+      break;
+    case '10':
+      print(A10(contents));
+      print(B10(contents));
       break;
   }
 }
