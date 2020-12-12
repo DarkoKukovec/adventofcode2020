@@ -11,17 +11,17 @@ void main() {
     test('Example 1', () {
       expect(A12(example), equals(25));
     });
-    // test('Solution', () {
-    //   expect(A12(contents), equals(582));
-    // });
+    test('Solution', () {
+      expect(A12(contents), equals(582));
+    });
   });
 
-  // group('B', () {
-  //   test('Example 1', () {
-  //     expect(B12(example), equals(286));
-  //   });
-  //   test('Solution', () {
-  //     expect(B12(contents), equals(52069));
-  //   });
-  // });
+  group('B', () {
+    test('Example 1', () {
+      expect(B12(example), equals(286));
+    });
+    test('Solution', () {
+      expect(B12(contents), equals(52069));
+    });
+  });
 }
