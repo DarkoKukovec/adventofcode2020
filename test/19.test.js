@@ -19,8 +19,8 @@ describe('19', () => {
 			expect(A19(example2)).toBe(3);
 		});
 
-		xit('Solution', () => {
-			expect(A19(input)).toBe(3159145843816);
+		it('Solution', () => {
+			expect(A19(input)).toBe(208);
 		});
 	});
 
